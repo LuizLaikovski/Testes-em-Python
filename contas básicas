@@ -1,0 +1,27 @@
+n1 = int(input('Digite o primeiro numero:'))
+n2 = int(input('Digite o primeiro numero:'))
+def adicao(n1, n2):
+    adc = n1 + n2
+    return adc
+print(f'O resultado da soma de {n1} e de {n2} tem o total de {adicao(n1, n2)}')
+def sub1(n1 , n2):
+    subtracao = n1 - n2
+    return subtracao
+print(f'A subtraçaõ de {n1} menos {n2} é igual a {sub1(n1, n2)}')
+def sub2(n1, n2):
+    subtra = n2 - n1
+    return subtra
+print(f'A subtraçaõ de {n2} menos {n1} é igual a {sub2(n1, n2)}')
+def mult(n1, n2):
+    multplicacao = n1 * n2
+    return multplicacao
+print(f'A multiplicação de {n1} vezes {n2} é igual a {mult(n1, n2)}')
+def div1(n1, n2):
+    div11 = n1 / n2
+    return div11
+print(f'A divisão de {n1} e {n2} resulta em {div1(n1, n2):.1f}')
+def div2(n1, n2):
+    div22 = n2 / n1
+    return div22
+print(f'A divisão de {n2} e {n1} resulta em {div2(n1, n2):.1f}')
+print('Acabou')
