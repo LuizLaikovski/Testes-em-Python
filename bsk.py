@@ -10,4 +10,4 @@ elif delta<0:
 else:
     x1=(-b+delta**(1/2))/(2*a)
     x2=(-b-delta**(1/2))/(2*a)
-print=("x1: {:.2f}, x2: {:.2f}". format(x1,x2))
+print("x1: {:.2f}, x2: {:.2f}". format(x1,x2))
