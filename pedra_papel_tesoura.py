@@ -7,12 +7,16 @@ while True:
         return (numero_gerado)
 
     #define o numero escolhido pelo usuario
+    print('========================================================')
+    print('        Bem vindo ao Jogo Pedra, papel e tesoura        ')
+    print('========================================================')
     def escolha_usuario():
         print("""Escolha uma das opções:
         [1]     Pedra
         [2]     Papel
         [3]     Tesoura""")
         numero_usuario = int(input('>>> '))
+        print('========================================================')
         return (numero_usuario)
 
     #defimição da escolha
@@ -36,6 +40,7 @@ while True:
 
     #define o resultado
     print(f'Voce escolheu {escolha_do_usuario_2}, e o computador escolheu {escolha_do_computador_2}')
+    print('========================================================')
     if escolha_do_computador == 1:
         if escolha_do_usuario == 1:
             print('Empate')
@@ -59,7 +64,7 @@ while True:
             print('Empate')
     else:
         print('DIGITOU ERRADO SEU BURRO')
-
+    print('========================================================')
     #encerra o loop
     escolha_final = str(input('Digite "sair" para encerrar o programa, caso queira jogar novamente digite "Jogar": '))
     if escolha_final.lower() == 'sair':
