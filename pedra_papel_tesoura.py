@@ -61,6 +61,6 @@ while True:
         print('DIGITOU ERRADO SEU BURRO')
 
     #encerra o loop
-    escolha_final = str(input('Digite "sair" para encerrar o programa: '))
+    escolha_final = str(input('Digite "sair" para encerrar o programa, caso queira jogar novamente digite "Jogar": '))
     if escolha_final.lower() == 'sair':
         break
